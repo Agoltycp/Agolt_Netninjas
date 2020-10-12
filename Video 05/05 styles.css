@@ -1,0 +1,45 @@
+
+p.error{
+  color: red;
+}
+p.success{
+  color: green;
+}
+p.success.feedback{
+boder: 1px dashed #4fdb4f;
+}
+#content{
+background-color: #ebebeb;
+padding: 20px;
+}
+div p{
+  color: blue;
+}
+a[href*="https://www.apple.com"]{
+  background-color: #3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a[href*=".com"]{
+  color:white;
+  background: red;
+  border: 2px solid blue;
+}
+
+div{
+  color: lightcoral;
+  boder: 1px solid grey;
+  margin: 4-px;
+  font-weight: bold;
+}
+div p{
+  border: inherit;
+  margin: inherit;
+  color: crimson;
+
+}
+div p{
+  color:orange;
+}
